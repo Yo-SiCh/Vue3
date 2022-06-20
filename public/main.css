@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #DCD9D4;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
+    background-blend-mode: soft-light,screen;
+}
+
+header {
+    text-align: center;
+    background-color: snow;
+    margin: 0 auto;
+    padding: .8em;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, .1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
